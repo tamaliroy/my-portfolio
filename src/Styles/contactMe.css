@@ -1,0 +1,14 @@
+.contact-section {
+    background-color: rgb(42, 221, 167);
+    width: 100vw;
+    height: 500px;
+}
+
+.contact-details {
+    border-radius: 50%;
+    background-color: white;
+    height: 50%;
+    width: 30%;
+    padding-top: 20px;
+
+}

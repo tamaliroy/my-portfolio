@@ -1,0 +1,191 @@
+.container {
+    /* background-color: rgb(6, 156, 94); */
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.sidenav {
+    padding: 0px !important;
+}
+
+.sidebar {
+    height: 90vh;
+    width: 100%;
+    background-color: #bebdbd;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif; 
+    background: url(../images/backgroundImage.jpg) 0 0 no-repeat;
+
+    overflow: hidden;
+    /* background: #C33764; 
+    background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgb(5, 145, 103)), url(../images/backgroundImage.jpg);
+    background: linear-gradient(rgba(29, 38, 113, 0.8), rgb(5, 145, 103)), url(../images/backgroundImage.jpg); */
+    /* -webkit-box-shadow: 5px 10px 5px 0px rgba(187, 184, 184, 0.75);
+    -moz-box-shadow: 5px 10px 5px 0px rgba(187, 184, 184, 0.75);
+    box-shadow: 5px 10px 5px 0px rgba(187, 184, 184, 0.75); */
+}
+
+.overlay {
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(5, 145, 103); 
+    z-index: 100; 
+    cursor: pointer;  */
+  }
+
+.sidebar h4 {
+    text-align: center;
+      
+}
+
+.sidebar a:first-child {
+    color: black;
+    text-decoration: none;
+}
+
+.contact-detail {
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+
+.about {
+    padding: 0px !important;
+}
+
+.text-color {
+    color: rgb(5, 145, 103);
+    font-weight: 500;
+}
+
+.profile-name {
+   font-size: 30px;
+   color: rgb(4, 105, 75);
+   font-weight: 500;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+   text-transform: uppercase;
+}
+
+.fa {
+    color: rgb(5, 145, 103);
+    margin: 5px;
+}
+
+#about-section {
+    height: 90vh;
+    width: 100%;
+    background-color: #f0eeee;
+    padding: 40px;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(119, 112, 112) !important;  
+    font-weight: 100;
+    font-size: 17px;
+    /* -webkit-box-shadow: 5px 10px 5px 0px rgba(187, 184, 184, 0.75);
+    -moz-box-shadow: 5px 10px 5px 0px rgba(187, 184, 184, 0.75);
+    box-shadow: 5px 10px 5px 0px rgba(187, 184, 184, 0.75); */
+}
+
+#about-section h2 {
+    color: rgb(5, 145, 103);
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img.rounded-corners {
+    border-radius: 50%;
+    margin-left: 25%;
+    width: 50%;
+    height: 50%;
+}
+
+.proficiency {
+    width: 100%; /* Full width */
+    
+}
+
+.skill-section {
+    background-color: white !important;
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    color: white; /* White text color */
+  }
+
+.skills-list {
+      display: flex;
+      padding-top: 50px !important;
+      margin-left: 25% !important;
+      width: 50%;
+      font-family: Arial, Helvetica, sans-serif;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-left {
+   text-align: left;
+}
+
+.html {width: 100%; background-color: rgb(5, 145, 103);}
+
+h1 {  
+    font-size: 32px;
+    line-height: 44px;
+}
+
+.work-section p {
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 16px;
+}
+
+.work-section {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #f4f4f4;
+    width: 100vw;
+    padding-bottom: 50px;
+    text-align: center;
+    padding-top: 80px;
+    color: rgb(119, 112, 112) !important;  
+    font-weight: 100;
+}
+
+.footer {
+    background-color: rgb(5, 145, 103) !important;
+    height: 150px;
+    width: 100vw;
+    text-align: center;
+    padding-top: 60px !important;
+    color: white;
+}
+
+.footer .fa {
+   color: white;
+   
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+    padding-top: 5rem;    
+}
+
+.vertical-line {
+    display: inline-block;
+    border-left: 2px solid rgb(5, 145, 103);
+    margin: 0 10px;
+    height: 100px;
+}
+
