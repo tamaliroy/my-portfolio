@@ -58,7 +58,7 @@
 
 .text-color {
     color: rgb(5, 145, 103);
-    font-weight: 500;
+    font-weight: 550;
 }
 
 .profile-name {
@@ -70,23 +70,39 @@
    text-transform: uppercase;
 }
 
+.profile-name:hover {
+    font-size: 32px;
+    cursor: pointer;
+}
+
 .fa {
     color: rgb(5, 145, 103);
     margin: 5px;
 }
 
+.fa:hover {
+    color: white;
+}
+
 #about-section {
     height: 90vh;
     width: 100%;
-    background-color: #f0eeee;
+    background-color: white;
     padding: 40px;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: rgb(119, 112, 112) !important;  
     font-weight: 100;
     font-size: 17px;
+    line-height: 3 !important;
     /* -webkit-box-shadow: 5px 10px 5px 0px rgba(187, 184, 184, 0.75);
     -moz-box-shadow: 5px 10px 5px 0px rgba(187, 184, 184, 0.75);
     box-shadow: 5px 10px 5px 0px rgba(187, 184, 184, 0.75); */
+}
+
+#about-section .container {
+    padding-left: 1.5rem;
+    padding-right: 30px;
+   
 }
 
 #about-section h2 {
@@ -108,7 +124,7 @@ img.rounded-corners {
 }
 
 .skill-section {
-    background-color: white !important;
+    background-color: #f0eeee !important;
 }
 
 .skills {
@@ -123,6 +139,12 @@ img.rounded-corners {
       margin-left: 25% !important;
       width: 50%;
       font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-teal {
+    background-color: rgb(5, 145, 103) !important;
+    height: 10px;
+    float: right;
 }
 
 .align-right {
@@ -156,6 +178,12 @@ h1 {
     padding-top: 80px;
     color: rgb(119, 112, 112) !important;  
     font-weight: 100;
+}
+
+.work-section .header {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px;
 }
 
 .footer {

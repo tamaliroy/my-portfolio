@@ -10,9 +10,12 @@ const setSkills = (skills) => {
              <div class="header">{skill.topic}</div>
              </div>    
          </div>
-         <div class="proficiency">
+         {/* <div class="proficiency">
          <div class="skills html"></div>
-         </div>
+         </div> */}
+         <div class="progress">
+            <div class="progress-bar bg-teal" role="progressbar" style={{ width: `${skill.proficiency}`}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
         
          </>
        })
@@ -28,8 +31,8 @@ const MySkills = ( {skills} ) => {
                totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae.</p>
             </div>            
         </div>
-        <div class="ui middle aligned selection list skills-list">
-            <div className="col-sm-6 align-right">
+        <div className="ui middle aligned selection list skills-list">
+            <div className="col-sm-6 align-right">            
             {setSkills(skills.slice(0, skills.length/2))}
             </div>
             <div className="col-sm-6 align-left">

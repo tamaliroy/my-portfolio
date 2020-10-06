@@ -1,3 +1,5 @@
-.nav-header {
-   background-color: rgb(5, 145, 103) !important;
+.navbar-brand {
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 25px;
 }

@@ -15,13 +15,13 @@ const HomePage = () => {
     const userInfo = {
         name: 'Tamali Roy',
         occupation: 'Front end developer',
-        skills: [{ topic: 'Angular8', proficiency: '8'},
-        { topic: 'ReactJs', proficiency: '7'},
-        { topic: 'Redux', proficiency: '6'},
-        { topic: 'Javascript', proficiency: '8'},
-        { topic: 'HTML', proficiency: '8'},
-        { topic: 'CSS', proficiency: '7'}],
-        aboutMe: 'Hello there. I am a Front end developer having 3 years of experience working in a corporate environment, with strong technical skill in complex web based applications. Have experience in developing responsive websites using Angular 8, ReactJs, Redux, javascript, HTML5, CSS3,Good experience in developing single page applications',
+        skills: [{ topic: 'Angular8', proficiency: '80%'},
+        { topic: 'ReactJs', proficiency: '70%'},
+        { topic: 'Redux', proficiency: '60%'},
+        { topic: 'Javascript', proficiency: '80%'},
+        { topic: 'HTML', proficiency: '80%'},
+        { topic: 'CSS', proficiency: '70%'}],
+        aboutMe: '',
         toolsUsed: 'Visual Studio Code, GIT bash, NPM, Webpack, Gulp',
         contact: { email: 'tamali95roy@gmail.com', phoneNo: '9674352466'},
         workExperience: [{client: 'Fidelity Investment', duration: '2018 Jan - 2020 May', role: 'Front end developer having 3 years of experience'},
@@ -97,11 +97,15 @@ const HomePage = () => {
                          <h2>PORTFOLIO</h2>
                          <div>                           
                              <p>A <span className="text-color">front end developer</span> with <span className="text-color">3 years of experience.</span></p>
-                             <p>{userDetails.aboutMe}</p>
+                             <p>As a designer and developer, I can help build amazing websites,
+                                  that are simple, beautiful and easy to use.</p>
+                             <p>I can develop applications written in both <span className="text-color">React and Angular</span>. I am a Front end developer having 3 years of experience working in a corporate environment, with strong technical skill in complex web based applications.
+                                  Have experience in developing responsive websites using Angular 8, ReactJs, Redux, javascript, HTML5, CSS3,Good experience in developing single page applications</p>
                          </div>
                        </div><hr/>
                        <div className="row">
                            <p>My current experience and skills in front end includes:
+                            <br/>
                            <div class="ui bulleted list">
                             <div class="item">lead TypeScript/JavaScript development: bootstraping, refactoring, improving the structure, reliability, build setup;</div>
                             <div class="item">full integration of front-end development using tools like Webpack with features like automatic code reload, code minifications, multiple environments support, CI/CD, Storybook components library, automated testing of accessibility, server-side render and visual snapshots,</div>
